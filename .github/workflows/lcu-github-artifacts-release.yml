@@ -1,4 +1,4 @@
-name: fathymdemo/gatsby-starter-blog
+name: fathymdemo/public-web-gatsby
 
 on:
   push:
@@ -10,7 +10,7 @@ env:
   Branches: master
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm i
+  InstallCommand: npm ci
   BuildCommand: npm run build
   Output: ./public
 
